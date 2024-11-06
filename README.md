@@ -1,6 +1,6 @@
 # CardioHealthAssistant
 
-CardioHealthAssistant is an AI-powered cardiovascular health companion that assists users in tracking, managing, and improving their cardiovascular health. Built with the Gemini API and Google AppSheet, this tool provides an interactive experience for users to set reminders, monitor health metrics, and receive evidence-based recommendations for heart health.
+CardioHealthAssistant is an AI-powered cardiovascular health companion that assists users in tracking, managing, and improving their cardiovascular health. Built with the Gemini API, this tool provides an interactive experience for users to set reminders, monitor health metrics, and receive evidence-based recommendations for heart health.
 
 ## Table of Contents
 - [Project Overview](#project-overview)

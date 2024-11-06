@@ -1,0 +1,20 @@
+# Streamlit for web application
+streamlit==1.25.0
+
+# Google Gemini API client
+google-generativeai==0.3.0
+google-auth==2.21.0
+google-auth-oauthlib==1.0.0
+
+# dotenv for environment variable management
+python-dotenv==1.0.0
+
+# Additional libraries for handling JSON and requests
+requests==2.31.0
+
+# Optional: Add these for potential data handling and logging
+pandas==1.5.3
+numpy==1.24.4
+
+
+setuptools>=58

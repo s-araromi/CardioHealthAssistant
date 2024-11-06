@@ -15,3 +15,6 @@ requests==2.31.0
 # Optional: Add these for potential data handling and logging
 pandas==1.5.3
 numpy==1.24.4
+
+
+setuptools>=58

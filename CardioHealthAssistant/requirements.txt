@@ -12,9 +12,21 @@ python-dotenv==1.0.0
 # Additional libraries for handling JSON and requests
 requests==2.31.0
 
+# Data visualization libraries for health metrics tracking
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.15.0
+
 # Optional: Add these for potential data handling and logging
 pandas==1.5.3
 numpy==1.24.4
 
+# Authentication and Calendar Dependencies
+google-auth-oauthlib==1.0.0
+google-auth-httplib2==0.1.0
+google-api-python-client==2.97.0
+
+# Dependencies for SMS and calendar notifications
+twilio==8.9.0
 
 setuptools>=58

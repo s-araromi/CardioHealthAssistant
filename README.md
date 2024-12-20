@@ -162,8 +162,8 @@ MIT License
 
 ## 📞 Contact
 **Sulaimon Araromi**
-- Email: s.araromi@example.com
-- LinkedIn: [Profile Link]
+- Email: sulaimonararomi@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sulaimon-araromi-395573151/
 - Project Link: [https://github.com/s-araromi/CardioHealthAssistant](https://github.com/s-araromi/CardioHealthAssistant)
 
 ---

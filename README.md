@@ -1,205 +1,171 @@
-# 🎓 Modern CGPA Calculator
+# CardioHealthAssistant 💓🩺
 
-A next-generation CGPA Calculator with Academic DNA Profiling, built with React and TypeScript.
+## Overview
+CardioHealthAssistant is an advanced, AI-powered health tracking and management application designed to provide comprehensive cardiovascular health insights, personalized recommendations, and proactive health monitoring.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://modern-cgpa-calculator-b7mvyer5n-sulaimon-araromis-projects.vercel.app/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Project Banner](assets/banner.png)
 
-## 🌟 Features
+## 🌟 Key Features
 
-### 1. CGPA Calculator
-- Support for multiple grading scales (4.0, 5.0, 7.0)
-- Real-time CGPA calculation
-- Course grade and credit tracking
-- Smart validation and error handling
-- Automatic grade point calculation
+### 1. Health Metrics Tracking
+- **Comprehensive Health Monitoring**
+  - Track critical cardiovascular health indicators
+  - Record and analyze:
+    - Cholesterol levels (Total, LDL, HDL)
+    - Blood sugar levels
+    - Blood pressure
+    - BMI calculations
+    - Exercise minutes
+    - Heart rate
 
-### 2. Scale Converter
-- Convert between different grading scales
-- Support for major international grading systems
-- Instant conversion results
-- Accurate decimal handling
+### 2. AI-Powered Health Insights
+- **Intelligent Analysis**
+  - Advanced machine learning algorithms
+  - Personalized health risk assessments
+  - Predictive health trend analysis
+- **Gemini AI Integration**
+  - Natural language health consultations
+  - Contextual health recommendations
+  - Personalized wellness strategies
 
-### 3. Academic Journey Tracker
-- Semester-by-semester progress tracking
-- Performance trend visualization
-- Historical grade analysis
-- Semester comparison tools
+### 3. Notification & Reminder System
+- **Multi-Channel Reminders**
+  - Medication adherence tracking
+  - Customizable reminder frequencies
+  - Email and SMS notifications
+  - Google Calendar event integration
 
-### 4. Academic DNA Profiler
-- Unique learning pattern analysis
-- Cognitive load optimization suggestions
-- Performance metrics visualization
-- Personalized academic insights
-- Academic DNA Score generation
+### 4. Data Visualization
+- **Interactive Health Dashboards**
+  - Time series trend analysis
+  - Distribution charts
+  - Correlation heatmaps
+  - Comparative box plots
+- **Matplotlib, Seaborn, and Plotly Visualizations**
 
-## 🚀 Getting Started
+### 5. Mobile Companion App
+- **Cross-Platform Support**
+  - Flutter-based mobile application
+  - iOS and Android compatibility
+  - Synchronized health tracking
+  - Real-time notifications
+
+## 🛠 Technology Stack
+
+### Backend
+- **Language**: Python 3.12
+- **Frameworks**: 
+  - Streamlit
+  - Pandas
+  - NumPy
+- **AI Integration**: 
+  - Google Gemini AI
+  - Generative AI API
+
+### Machine Learning
+- Scikit-learn
+- TensorFlow
+- Predictive health modeling
+
+### Mobile Development
+- **Framework**: Flutter
+- **Language**: Dart
+- **Platform**: Cross-platform (iOS/Android)
+
+### Notification Services
+- Twilio SMS
+- Google Calendar API
+- SMTP Email
+
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+- Python 3.12+
+- Flutter SDK
+- Google Cloud Account
+- Twilio Account (Optional)
 
 ### Installation
 
-1. Clone the repository
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/s-araromi/CardioHealthAssistant.git
+   cd CardioHealthAssistant
+   ```
+
+2. **Setup Python Environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**
+   - Copy `.env.example` to `.env`
+   - Fill in required API keys and credentials
+
+4. **Run the Application**
+   ```bash
+   streamlit run app.py
+   ```
+
+### Mobile App Setup
 ```bash
-git clone https://github.com/s-araromi/modern-cgpa-calculator.git
-cd modern-cgpa-calculator
+cd mobile_app
+flutter pub get
+flutter run
 ```
 
-2. Install dependencies
-```bash
-npm install
-# or
-yarn install
-```
+## 🔐 Security & Privacy
 
-3. Start the development server
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-4. Build for production
-```bash
-npm run build
-# or
-yarn build
-```
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework**: React 18.2.0
-- **Language**: TypeScript 4.9.5
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Deployment**: Vercel
-
-## 📱 Responsive Design
-
-The application is fully responsive and works seamlessly across:
-- Desktop computers
-- Tablets
-- Mobile devices
-- Different screen sizes and orientations
-
-## 🔒 Privacy & Data
-
-- All calculations are performed client-side
-- No personal data is collected or stored
-- No external APIs are required
-- Works offline after initial load
+- End-to-end encryption
+- Secure API key management
+- HIPAA compliance considerations
+- User data anonymization
+- Secure authentication mechanisms
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
-
 1. Fork the repository
-2. Create a feature branch
-```bash
-git checkout -b feature/AmazingFeature
-```
+2. Create your feature branch
 3. Commit your changes
-```bash
-git commit -m 'Add some AmazingFeature'
-```
 4. Push to the branch
-```bash
-git push origin feature/AmazingFeature
-```
-5. Open a Pull Request
+5. Create a Pull Request
 
-## 🐛 Bug Reports
+### Contribution Guidelines
+- Follow PEP 8 style guide
+- Write comprehensive unit tests
+- Document new features and changes
 
-Found a bug? Please open an issue with:
-- Clear bug description
-- Steps to reproduce
-- Expected vs actual behavior
-- Screenshots (if applicable)
-- Your environment details
+## 📊 Project Roadmap
 
-## 🎯 Roadmap
+### Upcoming Features
+- [ ] Advanced machine learning risk prediction
+- [ ] Wearable device integration
+- [ ] Telemedicine consultation booking
+- [ ] Comprehensive health report generation
+- [ ] Multi-language support
 
-- [ ] Add support for more international grading systems
-- [ ] Implement data export/import functionality
-- [ ] Add PDF report generation
-- [ ] Integrate with academic planning tools
-- [ ] Add more advanced analytics features
+## 📱 Screenshots
+
+![Dashboard](assets/dashboard.png)
+![Mobile App](assets/mobile_app.png)
 
 ## 📄 License
+MIT License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- All contributors who have helped shape this project
-- The React and TypeScript communities
-- Users who have provided valuable feedback
+## 🏆 Acknowledgements
+- Google Gemini AI
+- Streamlit Community
+- Flutter Team
+- Open-source contributors
 
 ## 📞 Contact
+**Sulaimon Araromi**
+- Email: s.araromi@example.com
+- LinkedIn: [Profile Link]
+- Project Link: [https://github.com/s-araromi/CardioHealthAssistant](https://github.com/s-araromi/CardioHealthAssistant)
 
-Project Link: [https://github.com/s-araromi/modern-cgpa-calculator](https://github.com/s-araromi/modern-cgpa-calculator)
+---
 
-Access the App here: https://modern-cgpa-calculator.vercel.app
-
-## 💡 Usage Tips
-
-### CGPA Calculation
-1. Select your grading scale
-2. Enter course details (code, units, grade)
-3. Add as many courses as needed
-4. View real-time CGPA calculation
-
-### Scale Conversion
-1. Enter your current GPA
-2. Select current scale
-3. Choose target scale
-4. View converted result
-
-### Academic Journey
-1. Add semester details
-2. Track progress over time
-3. Analyze performance trends
-4. Set academic goals
-
-### Academic DNA Profile
-1. Complete course evaluations
-2. View learning pattern analysis
-3. Get personalized recommendations
-4. Track your Academic DNA Score
-
-## ⚙️ Configuration
-
-The application can be configured through environment variables:
-
-```env
-VITE_APP_TITLE=Modern CGPA Calculator
-VITE_APP_DESCRIPTION=Track your academic progress
-```
-
-## 🔧 Troubleshooting
-
-Common issues and solutions:
-
-1. **Calculation Issues**
-   - Verify input values
-   - Check selected grading scale
-   - Clear browser cache
-
-2. **Display Problems**
-   - Ensure latest browser version
-   - Check screen resolution
-   - Try different browser
-
-## 📊 Performance
-
-The application is optimized for:
-- Fast initial load
-- Smooth calculations
-- Responsive interactions
-- Minimal resource usage
+**Disclaimer**: This application is for informational purposes and should not replace professional medical advice. Always consult healthcare professionals for personalized medical guidance.
